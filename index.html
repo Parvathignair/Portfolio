@@ -28,17 +28,29 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <div class="hero-subtitle">Angular Frontend Developer</div>
-            <h1 class="hero-title">Building Scalable & High-Performance Web Applications</h1>
-            <p class="hero-description">
-                Specialized in Angular (v21), TypeScript, RESTful API integration, and interactive data visualization using D3.js.
-            </p>
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-subtitle">Angular Frontend Developer</div>
+        <h1 class="hero-title">Building Scalable & High-Performance Web Applications</h1>
+        <p class="hero-description">
+            Specialized in Angular (v21), TypeScript, RESTful API integration, and interactive data visualization using D3.js.
+        </p>
+
+        <!-- Buttons -->
+        <div class="hero-buttons">
             <a href="#projects" class="cta-button">View My Projects</a>
+
+            <a href="PARVATHI_Resume.pdf"
+               class="resume-button"
+               target="_blank">
+               Download Resume
+            </a>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about">
@@ -87,7 +99,7 @@
         
         <div class="projects-grid">
 
-            <div class="project-card reveal">
+            <div class="project-card reveal" style="cursor: pointer;" onclick="window.open('https://www.aurex.ai/', '_blank')">
                 <div class="project-image">📊</div>
                 <div class="project-info">
                     <h3 class="project-title">Aurex – GRC & ESG Platform</h3>
@@ -103,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="project-card reveal">
+            <div class="project-card reveal" >
                 <div class="project-image">📋</div>
                 <div class="project-info">
                     <h3 class="project-title">Project Management Tool</h3>
@@ -118,6 +130,24 @@
                     </div>
                 </div>
             </div>
+
+           <div class="project-card reveal" style="cursor: pointer;" onclick="window.open('https://www.aiserwin.com/uae', '_blank')">
+    <div class="project-image">🎓</div>
+    <div class="project-info">
+        <h3 class="project-title">Winfocus Learning – EdTech Platform</h3>
+        <p class="project-description">
+            Online coaching platform for NEET/JEE/CBSE exam preparation targeting
+            Gulf-region students, featuring multi-country routing, dynamic course pages,
+            and interactive UI components.
+        </p>
+        <div class="project-tags">
+            <span class="tag">Angular</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">SCSS</span>
+            <span class="tag">REST API</span>
+        </div>
+    </div>
+</div>
 
         </div>
     </section>
